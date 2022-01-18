@@ -1,4 +1,4 @@
-.ready(function () {
+$(document).ready(function () {
 window.ace.config.setModuleUrl(
     "ace/theme/clouds", 
     "http://ajaxorg.github.io/ace-builds/src-noconflict/theme-clouds.js" // Gollum does not include all ACE themes for performance reasons, so tell ACE where to find the themes online.
