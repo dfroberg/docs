@@ -1,6 +1,6 @@
 # This is some info
 
-* Bullet
+* First bullet
 * Bullet
 * And onther one
 
