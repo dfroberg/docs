@@ -1,5 +1,5 @@
 # This is some info
-<<TOC>>
+[[_TOC_]]
 
 # Code Blocks
 `Some code`
