@@ -19,6 +19,21 @@ end
 ```
 # Some Charts
 @startuml
+class Object << general >>
+Object <|--- ArrayList
+
+note top of Object : In java, every class\nextends this one.
+
+note "This is a floating note" as N1
+note "This note is connected\nto several objects." as N2
+Object .. N2
+N2 .. ArrayList
+
+class Foo
+note left: On last defined class
+@enduml
+---
+@startuml
 abstract        abstract
 abstract class  "abstract class"
 annotation      annotation
@@ -31,14 +46,14 @@ entity          entity
 enum            enum
 interface       interface
 @enduml
-
+---
 @startuml
 You -> Wiki: View Request
 Wiki --> Test: Redirect
 Test -> Login: Authentication Request
 You <-- Login: another authentication Response
 @enduml
-
+---
 @startuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
