@@ -1,8 +1,5 @@
 # This is some info
-
-* First bullet
-* Bullet
-* And onther one
+[TOC]
 
 # Code Blocks
 `Some code`
