@@ -17,6 +17,12 @@ def foo
     puts 'bar'
 end
 ```
+@startuml
+You -> Wiki: View Request
+Wiki --> Test: Redirect
+Test -> Login: Authentication Request
+You <-- Login: another authentication Response
+@enduml
 
 @startuml
 Alice -> Bob: Authentication Request
